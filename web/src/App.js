@@ -15,7 +15,7 @@ class App extends Component {
     const { movies } = this.state;
     return (
       <div className="App">
-        {/* Render the passwords if we have them */}
+        {/* Render the movies if we have them */}
         {movies.length ? (
           <div>
             <h1>Movies</h1>
